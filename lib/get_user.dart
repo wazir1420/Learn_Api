@@ -1,7 +1,7 @@
-import 'package:fade_shimmer/fade_shimmer.dart';
 import 'package:flutter/material.dart';
 import 'package:learnapi/services/api_service.dart';
 
+// ignore: must_be_immutable
 class GetUserView extends StatefulWidget {
   int? id;
   GetUserView({super.key, this.id});
